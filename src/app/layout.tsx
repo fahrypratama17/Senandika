@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Figtree, Plus_Jakarta_Sans, Space_Grotesk } from "next/font/google";
-import "./globals.css";
+import "@/shared/styles/globals.css";
 
 const figtree = Figtree({
   variable: "--font-figtree",
