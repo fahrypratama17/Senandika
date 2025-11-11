@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
+import Navbar from "@/shared/components/navbar";
 
 export const metadata: Metadata = {
-  title: "Home",
+  title: "Senandika",
 };
-
 
 export default function Layout({
   children,
@@ -12,7 +12,7 @@ export default function Layout({
 }>) {
   return (
     <>
-
+      <Navbar />
       {children}
 
     </>

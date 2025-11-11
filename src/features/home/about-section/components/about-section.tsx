@@ -1,0 +1,23 @@
+import { about } from "../data/about-data";
+import { Card, CardContent, CardDescription, CardTitle } from "@/shared/components/ui/card";
+
+export default function AboutSection() {
+
+  return (
+    <section className="flex flex-col gap-10 justify-center items-center w-[70%] mx-auto mt-10">
+      <h1 className="text-[56px]">Tentang Senandika</h1>
+      <article className="flex flex-row gap-8">
+        {about.map((item) => (  
+        <Card 
+          key={item.id} 
+        >
+          <CardContent className="flex flex-col justify-center items-center text-justify gap-8">
+            <CardTitle>{item.title}</CardTitle>
+            <CardDescription>{item.desc}</CardDescription>
+          </CardContent>
+        </Card>
+      ))}
+      </article>
+    </section>
+  );
+}
