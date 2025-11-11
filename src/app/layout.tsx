@@ -33,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={` ${figtree.className} ${spaceGrotesk.variable} ${plusJakartaSans.variable} antialiased`}
+        className={` ${figtree.className} ${spaceGrotesk.className} ${plusJakartaSans.variable} antialiased`}
       >
         {children}
       </body>

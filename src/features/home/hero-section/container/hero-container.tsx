@@ -1,9 +1,9 @@
-import CarouselSection from "../components/hero-section";
+import HeroSection from "../components/hero-section";
 
 const HeroContainer = () => {
   return (
-    <div className="flex justify-center">
-      <CarouselSection />
+    <div className="flex w-full justify-center">
+      <HeroSection />
     </div>
   );
 };
