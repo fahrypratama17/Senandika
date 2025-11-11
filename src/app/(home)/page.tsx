@@ -1,12 +1,14 @@
 import HeroContainer from "@/features/home/hero-section/container/hero-container";
 import AboutContainer from "@/features/home/about-section/container/about.container";
 import TeamContainer from "@/features/home/team-section/container/team-container";
+import BenefitContainer from "@/features/home/benefit-section/container/benefit-container";
 
 export default function Home() {
   return (
     <main className="flex flex-col min-h-screen overscroll-y-contain mb-10">
       <HeroContainer />
       <AboutContainer />
+      <BenefitContainer />
       <TeamContainer />
     </main>
   );
