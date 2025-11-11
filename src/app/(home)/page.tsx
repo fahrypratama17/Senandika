@@ -3,7 +3,7 @@ import AboutContainer from "@/features/home/about-section/container/about.contai
 
 export default function Home() {
   return (
-    <main className="flex flex-col min-h-screen overscroll-y-contain">
+    <main className="flex flex-col min-h-screen overscroll-y-contain mb-10">
       <HeroContainer />
       <AboutContainer />
     </main>
